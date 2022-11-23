@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img-cont{
+    width:700px;
+    margin:  auto;
+    border:2px solid red;
+    position: relative;
+}
+img{
+    width: 550px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+#prev-btn{
+    position: absolute;
+    top:30%;
+    left:220px;
+    cursor:pointer;
+}
+#next-btn{
+    position: absolute;
+    top:30%;
+    right:220px;
+    cursor:pointer;
+}
+/* .button-container{
+    display: none;
+
+}
+.swiper-wrapper:hover + .button-container{
+    display: block;
+    color:red;
+}
+.button-container:hover{
+    display: block;
+} */
